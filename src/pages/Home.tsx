@@ -1,5 +1,6 @@
 import Seo from '../components/Seo'
 import WorkCard from '../components/WorkCard'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             </p>
             <div className="button-row">
               <a className="button primary" href="#work">See selected work</a>
-              <a className="button secondary" href="/Kristy_Knowles_Womens_Sports_Resume_v2.docx">Résumé</a>
+              <Link className="button secondary" to="/resume">View résumé</Link>
             </div>
           </div>
           <div className="hero-side">

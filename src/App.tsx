@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import WorkDenae from './pages/WorkDenae'
 import WorkAnalysis from './pages/WorkAnalysis'
 import WorkInaugural60 from './pages/WorkInaugural60'
+import Resume from './pages/Resume'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/work/denae-benites" element={<WorkDenae />} />
         <Route path="/work/wpbl-first-month" element={<WorkAnalysis />} />
         <Route path="/work/inaugural-60" element={<WorkInaugural60 />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>

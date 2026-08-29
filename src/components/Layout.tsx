@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <a href={location.pathname === '/' ? '#work' : '/#work'}>Work</a>
             <a href={location.pathname === '/' ? '#about' : '/#about'}>About</a>
             <a href={location.pathname === '/' ? '#projects' : '/#projects'}>Projects</a>
-            <a href="/Kristy_Knowles_Womens_Sports_Resume_v2.docx">Résumé</a>
+            <Link to="/resume" aria-current={location.pathname === '/resume' ? 'page' : undefined}>Résumé</Link>
           </nav>
         </div>
       </header>
