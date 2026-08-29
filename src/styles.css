@@ -786,14 +786,14 @@ nav a[aria-current="page"] { color: #fff; }
 
 body { background: #fff; color: var(--ten-black); }
 .site-header {
-  background: rgba(255, 255, 255, .94);
-  border-bottom-color: rgba(50, 22, 90, .13);
-  color: var(--ten-black);
+  background: var(--ten-electric-blue);
+  border-bottom-color: rgba(255, 255, 255, .2);
+  color: #fff;
 }
-.wordmark { color: var(--ten-deep-purple); }
-nav a { color: #625b6b; }
+.wordmark { color: #fff; }
+nav a { color: rgba(255, 255, 255, .78); }
 nav a:hover,
-nav a[aria-current="page"] { color: var(--ten-violet); }
+nav a[aria-current="page"] { color: #fff; }
 
 .hero-v2 {
   background: var(--ten-cloud);
@@ -902,6 +902,13 @@ nav a[aria-current="page"] { color: var(--ten-violet); }
   background-size: 38px 38px, 38px 38px, auto;
 }
 .projects-section h2 { color: #fff; }
+.project-card {
+  background: linear-gradient(145deg, var(--ten-deep-purple), var(--ten-violet));
+  box-shadow: 10px 12px 0 rgba(11, 10, 16, .2);
+}
+.project-card:nth-child(2) {
+  background: linear-gradient(145deg, var(--ten-indigo), var(--ten-electric-blue));
+}
 .project-card::before { border-color: rgba(168, 139, 212, .3); }
 .project-card:nth-child(2)::before { border-color: rgba(57, 115, 230, .34); }
 .project-card-head { background: var(--ten-lavender); color: var(--ten-midnight); }
