@@ -11,18 +11,6 @@ export default function Home() {
       />
 
       <section className="hero hero-v2">
-        <div className="hero-playbook" aria-hidden="true">
-          <svg viewBox="0 0 760 760" role="presentation">
-            <circle cx="380" cy="380" r="285" />
-            <circle cx="380" cy="380" r="178" />
-            <path d="M95 574L241 448l98 52 114-201 108 57 104-170" />
-            <path d="M121 233h128M513 536h131M173 646h94" />
-            <circle className="play-dot one" cx="241" cy="448" r="9" />
-            <circle className="play-dot two" cx="453" cy="299" r="9" />
-            <circle className="play-dot three" cx="561" cy="356" r="9" />
-          </svg>
-        </div>
-
         <div className="shell hero-grid hero-grid-v2">
           <div className="hero-copy hero-copy-v2">
             <span className="eyebrow hero-kicker">Kristy Knowles · Women’s sports + data</span>
@@ -42,7 +30,6 @@ export default function Home() {
           </div>
 
           <div className="portrait-data-stage">
-            <div className="portrait-orbit" aria-hidden="true" />
             <div className="portrait-frame">
               <img
                 src="/kristy-portrait-vneck-v3.png"
@@ -50,16 +37,18 @@ export default function Home() {
               />
             </div>
 
-            <div className="data-card data-card-wta">
-              <span className="data-card-label">Women’s pro sports</span>
-              <strong>9+</strong>
-              <small>years inside the WTA</small>
-            </div>
+            <div className="experience-stats" aria-label="Career experience">
+              <div className="data-card data-card-wta">
+                <span className="data-card-label">Women’s pro sports</span>
+                <strong>9+</strong>
+                <small>years inside the WTA</small>
+              </div>
 
-            <div className="data-card data-card-tech">
-              <span className="data-card-label">Technology</span>
-              <strong>20+</strong>
-              <small>years building systems</small>
+              <div className="data-card data-card-tech">
+                <span className="data-card-label">Technology</span>
+                <strong>20+</strong>
+                <small>years building systems</small>
+              </div>
             </div>
 
             <div className="data-card data-card-role">
@@ -99,7 +88,7 @@ export default function Home() {
               title="Denae Benites Found the Stage Baseball Had Denied Her"
               description="A deeply sourced player feature tracing Benites from years of finding her own places to play to hitting the first home run in WPBL history."
               href="/work/denae-benites"
-              image="/work-images/denae-feature-broadcast-v3.png"
+              image="/work-images/denae-feature-broadcast-v4.png"
               note="Pre-publication editorial sample · Player factual review pending"
             />
             <WorkCard
