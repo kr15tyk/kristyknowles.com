@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
-<rect width="1600" height="1000" fill="#f0ede6"/>
-<text x="100" y="160" font-family="Georgia,serif" font-size="56" fill="#4a2f72">DATA ANALYSIS</text>
-<g fill="#4a2f72">
+<rect width="1600" height="1000" fill="#DCE9E3"/>
+<text x="100" y="160" font-family="Georgia,serif" font-size="56" fill="#356B5D">DATA ANALYSIS</text>
+<g fill="#5A3474">
 <rect x="110" y="720" width="180" height="140" rx="12"/>
-<rect x="360" y="610" width="180" height="250" rx="12"/>
+<rect x="360" y="610" width="180" height="250" rx="12" fill="#B9533E"/>
 <rect x="610" y="470" width="180" height="390" rx="12"/>
-<rect x="860" y="350" width="180" height="510" rx="12"/>
-<rect x="1110" y="260" width="180" height="600" rx="12"/>
+<rect x="860" y="350" width="180" height="510" rx="12" fill="#C6923A"/>
+<rect x="1110" y="260" width="180" height="600" rx="12" fill="#356B5D"/>
 </g>
-<line x1="90" y1="860" x2="1400" y2="860" stroke="#18161b" stroke-width="4"/>
-<text x="100" y="300" font-family="Georgia,serif" font-size="105" fill="#18161b">WPBL: the first month</text>
+<line x1="90" y1="860" x2="1400" y2="860" stroke="#2C173A" stroke-width="4"/>
+<text x="100" y="300" font-family="Georgia,serif" font-size="105" fill="#2C173A">WPBL: the first month</text>
 </svg>

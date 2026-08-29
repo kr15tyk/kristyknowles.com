@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <g stroke="#5A3474" stroke-width="3" opacity=".18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M126 700 390 436 654 700 390 814Z"/>
+    <path d="M390 436 390 814M126 700h528" stroke-dasharray="10 14"/>
+    <path d="M390 436C225 430 92 563 86 728M390 436c165-6 298 127 304 292"/>
+    <path d="M390 458 412 480 390 502 368 480Z"/>
+    <path d="m136 684 20 20-20 20-20-20Zm508 0 20 20-20 20-20-20Z"/>
+    <path d="m390 785 23 13-8 27h-30l-8-27Z"/>
+    <path d="M390 798 222 620M390 798l168-178"/>
+  </g>
+  <g stroke="#356B5D" stroke-width="3" opacity=".16">
+    <rect x="936" y="138" width="612" height="566" rx="6"/>
+    <path d="M1242 138v566"/>
+    <circle cx="1242" cy="421" r="80"/>
+    <circle cx="1242" cy="421" r="5" fill="#356B5D"/>
+    <path d="M936 300h108v242H936m612-242h-108v242h108"/>
+    <path d="M936 351h45v140h-45m612-140h-45v140h45"/>
+    <path d="M936 407h-18v28h18m612-28h18v28h-18"/>
+    <path d="M936 138a26 26 0 0 0 26 26m586-26a26 26 0 0 1-26 26M936 704a26 26 0 0 1 26-26m586 26a26 26 0 0 0-26-26"/>
+  </g>
+  <g stroke="#B9533E" stroke-width="2" opacity=".17" stroke-linecap="round">
+    <path d="M760 178v72m28-52v52m28-86v86m28-42v42m28-66v66"/>
+    <path d="M770 282c46-40 84 30 132-20 42-44 83-16 119-70"/>
+    <circle cx="770" cy="282" r="5" fill="#B9533E"/>
+    <circle cx="902" cy="262" r="5" fill="#B9533E"/>
+    <circle cx="1021" cy="192" r="5" fill="#B9533E"/>
+  </g>
+  <g fill="#5A3474" opacity=".12" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">
+    <text x="118" y="860">BASEBALL</text>
+    <text x="1372" y="742">FOOTBALL</text>
+    <text x="770" y="314">DATA</text>
+  </g>
+</svg>

@@ -1,7 +1,6 @@
 import Seo from '../components/Seo'
 
 const resumePdf = '/Kristy_Knowles_Resume.pdf'
-const resumeDocx = '/Kristy_Knowles_Womens_Sports_Resume_v2.docx'
 
 type RoleProps = {
   organization: string
@@ -48,15 +47,15 @@ export default function Resume() {
             <p>More than nine years inside the WTA and more than 20 years in technology, research, engineering, and technical leadership.</p>
           </div>
           <div className="resume-download-card">
-            <p className="resume-download-label">Download a copy</p>
-            <a className="button primary" href={resumePdf} download>Download PDF</a>
-            <a className="button secondary" href={resumeDocx} download>Download Word file</a>
-            <a className="resume-open-link" href={resumePdf} target="_blank" rel="noreferrer">Open PDF in browser →</a>
+            <p className="resume-download-label">One-page résumé</p>
+            <a className="button primary" href={resumePdf} target="_blank" rel="noreferrer">Open PDF</a>
+            <a className="button secondary" href="#resume-html">Read the HTML version</a>
+            <p className="resume-open-note">The PDF opens in a new browser tab.</p>
           </div>
         </div>
       </section>
 
-      <article className="resume-page shell">
+      <article className="resume-page shell" id="resume-html">
         <header className="resume-heading">
           <p className="resume-kicker">Women’s Sports <span>•</span> Content & Data <span>•</span> Research & Technology</p>
           <div className="resume-contact" aria-label="Contact information">

@@ -8,6 +8,7 @@
 </IfModule>
 
 AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document .docx
+AddType application/pdf .pdf
 
 <IfModule mod_headers.c>
   <FilesMatch "\.(css|js|svg|png|jpg|jpeg|gif|webp|woff2?)$">
