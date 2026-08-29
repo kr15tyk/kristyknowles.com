@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             <a href={location.pathname === '/' ? '#work' : '/#work'}>Work</a>
             <a href={location.pathname === '/' ? '#about' : '/#about'}>About</a>
             <a href={location.pathname === '/' ? '#projects' : '/#projects'}>Projects</a>
-            <Link to="/resume" aria-current={location.pathname === '/resume' ? 'page' : undefined}>Résumé</Link>
+            <a href="/Kristy_Knowles_Resume.pdf" target="_blank" rel="noreferrer">Résumé PDF</a>
           </nav>
         </div>
       </header>
@@ -25,6 +25,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           </div>
           <div className="footer-links">
             <a href="mailto:kristyk@gmail.com">Email</a>
+            <a href="/resume">HTML Résumé</a>
             <a href="https://github.com/kr15tyk" target="_blank" rel="noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/krknowles/" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>

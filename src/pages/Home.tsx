@@ -1,6 +1,5 @@
 import Seo from '../components/Seo'
 import WorkCard from '../components/WorkCard'
-import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -13,21 +12,29 @@ export default function Home() {
 
       <section className="hero">
         <div className="shell hero-grid">
-          <div>
-            <span className="eyebrow">Women’s Sports × Data × Technology</span>
-            <h1>I build the story, interrogate the data, and make the product.</h1>
+          <div className="hero-copy">
+            <span className="eyebrow">Women’s Pro Sports · Data Desk · Product Lab</span>
+            <h1>I turn women’s sports into stories, stats, and products.</h1>
             <p className="hero-lede">
-              I started my career inside professional women’s sports, traveling internationally with the WTA and providing tournament statistics to the media. After two decades in technology, research, engineering, and technical leadership, I’m bringing those worlds back together.
+              Nine years inside the WTA. Two decades in technology. Now I’m building editorial work, sports data, and digital products around the women’s games worth following closely.
             </p>
+            <p className="focus-line"><span>Current focus</span> Women’s professional baseball + soccer</p>
             <div className="button-row">
               <a className="button primary" href="#work">See selected work</a>
-              <Link className="button secondary" to="/resume">View résumé</Link>
+              <a className="button secondary" href="/Kristy_Knowles_Resume.pdf" target="_blank" rel="noreferrer">Open résumé PDF</a>
             </div>
           </div>
-          <div className="hero-side">
-            <p className="hero-side-kicker">Current focus</p>
-            <strong>Women’s baseball</strong>
-            <p>Editorial · Research · Sports Data · Digital Products</p>
+          <div className="hero-art">
+            <img
+              src="/hero-womens-sports-editorial.png"
+              alt="Editorial illustration of a woman swinging a baseball bat and a woman driving forward with a soccer ball, surrounded by hand-drawn statistics and scouting marks"
+            />
+            <div className="art-score art-score-wta"><strong>9+</strong><span>YEARS<br />INSIDE THE WTA</span></div>
+            <div className="art-score art-score-tech"><strong>20+</strong><span>YEARS IN<br />TECHNOLOGY</span></div>
+            <div className="art-caption">
+              <span>THE DATA TELLS A STORY</span>
+              <b>BASEBALL · SOCCER · WOMEN’S SPORTS</b>
+            </div>
           </div>
         </div>
       </section>
@@ -46,7 +53,7 @@ export default function Home() {
               title="Denae Benites Found the Stage Baseball Had Denied Her"
               description="A deeply sourced player feature tracing Benites from years of finding her own places to play to hitting the first home run in WPBL history."
               href="/work/denae-benites"
-              image="/work-images/denae-placeholder.svg"
+              image="/work-images/denae-feature-editorial.png"
               note="Pre-publication editorial sample · Player factual review pending"
             />
             <WorkCard
@@ -54,14 +61,14 @@ export default function Home() {
               title="What the WPBL’s First Month Can Tell Us — and What It Cannot"
               description="A transparent look at early leaderboards, opportunity, qualification thresholds, and the conclusions a small inaugural-season sample can—and cannot—support."
               href="/work/wpbl-first-month"
-              image="/work-images/analysis-placeholder.svg"
+              image="/work-images/wpbl-analysis-statboard.svg"
             />
             <WorkCard
               label="Data + Digital Product"
               title="The Inaugural 60"
               description="A structured, source-backed record of the players who opened the WPBL’s first season, combining player research, statistics, data pipelines, and individual player pages."
               href="/work/inaugural-60"
-              image="/work-images/sixty-placeholder.svg"
+              image="/work-images/inaugural-60-baseballs.svg"
             />
           </div>
         </div>
@@ -106,7 +113,7 @@ export default function Home() {
             <p>My career started with the Women’s Tennis Association, where I spent more than nine years working in professional women’s sports. I traveled internationally with WTA staff and players, supporting tournaments and providing statistical information to the press corps before and during play.</p>
             <p>Technology eventually took me in another direction. I moved through network engineering, government infrastructure, cybersecurity, and technical research before becoming a Technical Leader at Cisco.</p>
             <p>At Cisco, I work at the intersection of engineering, research, international standards, and increasingly AI and automation. I also chair an international technical community bringing together more than 100 participants from industry, government, laboratories, consultants, and academia.</p>
-            <p>Now those two halves of my career are coming back together. I’m building tools, data, and stories around women’s sports—particularly women’s baseball—and exploring what becomes possible when sports knowledge, rigorous research, and modern technology live in the same place.</p>
+            <p>Now those two halves of my career are coming back together. I’m building tools, data, and stories around women’s sports—particularly women’s professional baseball and soccer—and exploring what becomes possible when sports knowledge, rigorous research, and modern technology live in the same place.</p>
           </div>
         </div>
       </section>
@@ -114,7 +121,7 @@ export default function Home() {
       <section className="section contact-section">
         <div className="shell contact-block">
           <span className="eyebrow">Interested In</span>
-          <h2>Editorial · Research · Sports Data · Digital Products · Women’s Baseball</h2>
+          <h2>Editorial · Research · Sports Data · Digital Products · Women’s Pro Baseball + Soccer</h2>
           <p>I’m interested in conversations where those disciplines overlap.</p>
           <div className="button-row">
             <a className="button primary" href="mailto:kristyk@gmail.com">Email me</a>

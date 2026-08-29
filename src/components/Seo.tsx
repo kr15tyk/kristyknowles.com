@@ -37,7 +37,9 @@ export default function Seo({ title, description, path, noindex = false }: Props
       ['og:description', description],
       ['og:url', canonical.href],
       ['og:type', 'website'],
+      ['og:image', 'https://kristyknowles.com/hero-womens-sports-editorial.png'],
       ['twitter:card', 'summary_large_image'],
+      ['twitter:image', 'https://kristyknowles.com/hero-womens-sports-editorial.png'],
     ]
     social.forEach(([property, content]) => {
       let el = document.querySelector(`meta[property="${property}"], meta[name="${property}"]`) as HTMLMetaElement | null

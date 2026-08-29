@@ -19,7 +19,7 @@ export default function WorkAnalysis() {
           </div>
         </header>
         <div className="shell narrow">
-          <img className="work-hero-image" src="/work-images/analysis-placeholder.svg" alt="Placeholder data visualization for WPBL analysis" />
+          <img className="work-hero-image" src="/work-images/wpbl-analysis-statboard.svg" alt="Animated WPBL analysis board with ranked rows, opportunity bars, qualification markers, and trend lines" />
           <div className="work-details-grid">
             <div><span>Role</span><strong>Data analysis · Writing · Visualization</strong></div>
             <div><span>Source</span><strong>Official WPBL statistics feed</strong></div>

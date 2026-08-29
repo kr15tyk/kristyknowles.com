@@ -43,7 +43,7 @@ export default function Resume() {
         <div className="shell resume-hero-grid">
           <div>
             <span className="eyebrow">Résumé</span>
-            <h1>Women’s sports, data, research & technology.</h1>
+            <h1>Women’s pro sports, data, research & technology.</h1>
             <p>More than nine years inside the WTA and more than 20 years in technology, research, engineering, and technical leadership.</p>
           </div>
           <div className="resume-download-card">
@@ -71,7 +71,7 @@ export default function Resume() {
 
         <section className="resume-section">
           <h2>Profile</h2>
-          <p><strong>Women’s sports, data, and technology professional with 9+ years inside the WTA and more than 20 years in technology, research, engineering, and technical leadership.</strong> Early career included traveling internationally with the WTA Tour and providing tournament statistics to the press corps. Today, a Technical Leader at Cisco and founder of She’s On First, an independent women’s baseball media and data project documenting the WPBL’s inaugural season. Interested in editorial, research, data, digital product, and women’s baseball opportunities.</p>
+          <p><strong>Women’s sports, data, and technology professional with 9+ years inside the WTA and more than 20 years in technology, research, engineering, and technical leadership.</strong> Early career included traveling internationally with the WTA Tour and providing tournament statistics to the press corps. Today, a Technical Leader at Cisco and founder of She’s On First, an independent women’s baseball media and data project documenting the WPBL’s inaugural season. Current focus: women’s professional baseball and women’s professional soccer.</p>
         </section>
 
         <section className="resume-section">
@@ -141,7 +141,7 @@ export default function Resume() {
         <section className="resume-section resume-education">
           <h2>Education & Focus</h2>
           <p><strong>University of South Florida — B.A.</strong> <span>•</span> <strong>York University — A.A.</strong></p>
-          <p>Women’s Sports • Women’s Baseball • WPBL • Sports Data • Statistical Storytelling • Research & Analysis • Digital Products • AI-Assisted Research • Fact Verification • APIs • Technical Communication</p>
+          <p>Women’s Pro Baseball • Women’s Pro Soccer • WPBL • Sports Data • Statistical Storytelling • Research & Analysis • Digital Products • AI-Assisted Research • Fact Verification • APIs • Technical Communication</p>
         </section>
       </article>
     </>

@@ -4,8 +4,13 @@
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /index.html [L]
+  RewriteRule ^(resume|work/denae-benites|work/wpbl-first-month|work/inaugural-60)/?$ /index.html [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ - [R=404,L]
 </IfModule>
+
+ErrorDocument 404 /404.html
 
 AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document .docx
 AddType application/pdf .pdf
@@ -19,5 +24,9 @@ AddType application/pdf .pdf
   </FilesMatch>
   <FilesMatch "\.docx$">
     Header set Content-Disposition "attachment"
+  </FilesMatch>
+  <FilesMatch "\.pdf$">
+    Header set Content-Disposition "inline"
+    Header set Cache-Control "public, max-age=300, must-revalidate"
   </FilesMatch>
 </IfModule>

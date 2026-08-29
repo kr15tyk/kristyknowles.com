@@ -21,7 +21,7 @@ export default function WorkDenae() {
           </div>
         </header>
         <div className="shell narrow">
-          <img className="work-hero-image" src="/work-images/denae-placeholder.svg" alt="Placeholder artwork for the Denae Benites feature" />
+          <img className="work-hero-image" src="/work-images/denae-feature-editorial.png" alt="Conceptual editorial illustration of a woman batter following through as the baseball travels toward the stadium lights" />
           <div className="work-details-grid">
             <div><span>Role</span><strong>Writer · Researcher · Data integration</strong></div>
             <div><span>Publication</span><strong>She’s On First</strong></div>
