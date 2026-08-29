@@ -74,18 +74,24 @@ export default function Home() {
             <h2>Projects with a point of view.</h2>
           </div>
           <div className="project-grid">
-            <a className="project-card" href="https://shesonfirst.com" target="_blank" rel="noreferrer">
+            <article className="project-card">
               <span className="eyebrow">Women’s Baseball Media + Data</span>
               <h3>She’s On First</h3>
               <p>An independent project documenting the people, data, and stories shaping a new era of women’s professional baseball.</p>
-              <span className="text-link">Visit She’s On First →</span>
-            </a>
-            <a className="project-card" href="https://wosolive.com" target="_blank" rel="noreferrer">
+              <div className="project-links">
+                <a className="text-link" href="https://shesonfirst.com" target="_blank" rel="noreferrer">Visit She’s On First →</a>
+                <a className="social-link" href="https://www.instagram.com/sheson1st/" target="_blank" rel="noreferrer">Instagram @sheson1st</a>
+              </div>
+            </article>
+            <article className="project-card">
               <span className="eyebrow">Women’s Sports Scores + Schedules</span>
               <h3>WoSoLive</h3>
               <p>A fan-facing scores and schedules product built around women’s sports rather than treating women’s competitions as an afterthought.</p>
-              <span className="text-link">Visit WoSoLive →</span>
-            </a>
+              <div className="project-links">
+                <a className="text-link" href="https://wosolive.com" target="_blank" rel="noreferrer">Visit WoSoLive →</a>
+                <a className="social-link" href="https://www.instagram.com/wosolive/" target="_blank" rel="noreferrer">Instagram @wosolive</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>

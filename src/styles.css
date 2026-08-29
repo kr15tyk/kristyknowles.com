@@ -96,8 +96,11 @@ h3 { font-size: clamp(1.65rem, 2.5vw, 2.35rem); font-weight: 500; }
 
 .projects-section { background: linear-gradient(135deg, var(--green-soft), #efe6d9 62%, var(--coral-soft)); }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 22px; }
-.project-card { display: block; min-height: 290px; padding: 28px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); text-decoration: none; }
+.project-card { display: flex; min-height: 290px; padding: 28px; border-radius: 20px; background: var(--card); border: 1px solid var(--line); flex-direction: column; }
 .project-card p { color: var(--muted); max-width: 48ch; }
+.project-links { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-top: auto; padding-top: 24px; }
+.social-link { color: var(--muted); font-size: .9rem; font-weight: 700; text-decoration: none; }
+.social-link:hover { color: var(--purple); text-decoration: underline; text-underline-offset: 3px; }
 
 .about-grid { display: grid; grid-template-columns: .75fr 1.25fr; gap: 70px; }
 .prose { font-size: 1.05rem; }
