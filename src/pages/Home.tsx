@@ -89,6 +89,7 @@ export default function Home() {
               description="A deeply sourced player feature tracing Benites from years of finding her own places to play to hitting the first home run in WPBL history."
               href="/work/denae-benites"
               image="/work-images/denae-feature-broadcast-v4.png"
+              imageAlt="Feature illustration: a batter following through on a swing under stadium lights"
               note="Pre-publication editorial sample · Player factual review pending"
             />
             <WorkCard
@@ -98,6 +99,7 @@ export default function Home() {
               description="A transparent look at early leaderboards, opportunity, qualification thresholds, and the conclusions a small inaugural-season sample can—and cannot—support."
               href="/work/wpbl-first-month"
               image="/work-images/wpbl-analysis-broadcast-v3.png"
+              imageAlt="Analysis illustration: a batter at the plate in stylized stadium light"
             />
             <WorkCard
               number="03"
@@ -106,6 +108,7 @@ export default function Home() {
               description="A structured, source-backed record of the players who opened the WPBL’s first season, combining player research, statistics, data pipelines, and individual player pages."
               href="/work/inaugural-60"
               image="/work-images/inaugural-60-data-system-v3.png"
+              imageAlt="The Inaugural 60: a stadium rendered as a grid of sixty connected player-data nodes"
               overlay="/work-images/inaugural-60-token-overlay-v3.svg"
             />
           </div>
