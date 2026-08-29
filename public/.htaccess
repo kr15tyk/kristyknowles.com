@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+AddType application/vnd.openxmlformats-officedocument.wordprocessingml.document .docx
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|svg|png|jpg|jpeg|gif|webp|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "^(index\.html)?$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.docx$">
+    Header set Content-Disposition "attachment"
+  </FilesMatch>
+</IfModule>
