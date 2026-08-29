@@ -19,7 +19,10 @@ export default function WorkInaugural60() {
           </div>
         </header>
         <div className="shell narrow">
-          <img className="work-hero-image" src="/work-images/inaugural-60-baseballs.svg" alt="A grid of 60 illustrated baseballs representing the WPBL founding player class" />
+          <div className="work-hero-composite" role="img" aria-label="A women’s baseball roster data system layered with exactly 60 baseball tokens representing the founding player class">
+            <img className="work-hero-image" src="/work-images/inaugural-60-data-system-v3.png" alt="" />
+            <img className="work-hero-overlay" src="/work-images/inaugural-60-token-overlay-v3.svg" alt="" />
+          </div>
           <div className="work-details-grid">
             <div><span>Role</span><strong>Product · Research · Data · Development</strong></div>
             <div><span>Scope</span><strong>60-player inaugural cohort</strong></div>
