@@ -1,5 +1,6 @@
 import Seo from '../components/Seo'
 import { Link } from 'react-router-dom'
+import WorkVisual from '../components/WorkVisual'
 
 export default function WorkInaugural60() {
   return (
@@ -19,10 +20,7 @@ export default function WorkInaugural60() {
           </div>
         </header>
         <div className="shell narrow">
-          <div className="work-hero-composite" role="img" aria-label="A women’s baseball roster data system layered with exactly 60 baseball tokens representing the founding player class">
-            <img className="work-hero-image" src="/work-images/inaugural-60-data-system-v3.png" alt="" />
-            <img className="work-hero-overlay" src="/work-images/inaugural-60-token-overlay-v3.svg" alt="" />
-          </div>
+          <WorkVisual variant="roster" />
           <div className="work-details-grid">
             <div><span>Role</span><strong>Product · Research · Data · Development</strong></div>
             <div><span>Scope</span><strong>60-player inaugural cohort</strong></div>

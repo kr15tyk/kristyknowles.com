@@ -1,5 +1,6 @@
 import Seo from '../components/Seo'
 import { Link } from 'react-router-dom'
+import WorkVisual from '../components/WorkVisual'
 
 export default function WorkAnalysis() {
   return (
@@ -19,7 +20,7 @@ export default function WorkAnalysis() {
           </div>
         </header>
         <div className="shell narrow">
-          <img className="work-hero-image" src="/work-images/wpbl-analysis-broadcast-v3.png" alt="Women’s baseball batter surrounded by layered sports-analysis charts and trajectory graphics" />
+          <WorkVisual variant="analysis" />
           <div className="work-details-grid">
             <div><span>Role</span><strong>Data analysis · Writing · Visualization</strong></div>
             <div><span>Source</span><strong>Official WPBL statistics feed</strong></div>

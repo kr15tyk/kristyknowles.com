@@ -1,5 +1,6 @@
 import Seo from '../components/Seo'
 import { Link } from 'react-router-dom'
+import WorkVisual from '../components/WorkVisual'
 
 export default function WorkDenae() {
   return (
@@ -21,7 +22,7 @@ export default function WorkDenae() {
           </div>
         </header>
         <div className="shell narrow">
-          <img className="work-hero-image" src="/work-images/denae-feature-broadcast-v4.png" alt="Editorial collage of a women’s baseball batter following through in a standard batting helmet and uniform, surrounded by reporting notes, contact frames, and a ball-flight arc" />
+          <WorkVisual variant="feature" />
           <div className="work-details-grid">
             <div><span>Role</span><strong>Writer · Researcher · Data integration</strong></div>
             <div><span>Publication</span><strong>She’s On First</strong></div>
