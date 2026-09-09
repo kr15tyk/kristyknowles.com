@@ -1054,6 +1054,9 @@ nav a[aria-current="page"] { color: #fff; }
 }
 .career-archive-scorebar span { color: rgba(255, 255, 255, .72); }
 .career-archive-scorebar strong { font-size: inherit; }
+.career-archive-tech .career-archive-scorebar {
+  background: linear-gradient(100deg, var(--ten-indigo), var(--ten-electric-blue));
+}
 .career-archive-soccer .career-archive-scorebar {
   background: linear-gradient(100deg, var(--ten-electric-blue), var(--ten-indigo) 58%, var(--ten-violet));
 }

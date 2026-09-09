@@ -179,6 +179,28 @@ export default function Home() {
               <span className="career-marker">02</span>
               <div><span className="career-era">Technology · Research · Standards</span><p>Technology took me through network engineering, government infrastructure, cybersecurity, and technical research before becoming a Technical Leader at Cisco. There, I work across engineering, research, international standards, AI, and automation—and chair an international technical community of more than 100 participants.</p></div>
             </article>
+
+            <figure className="career-archive career-archive-tech">
+              <div className="career-archive-scorebar">
+                <span>Technology</span>
+                <strong>Cisco</strong>
+              </div>
+              <div className="career-archive-photo">
+                <img
+                  src="/cisco-personal-archive.jpg"
+                  alt="Kristy Knowles with a colleague in front of a Cisco office sign"
+                  width="1024"
+                  height="768"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <figcaption>
+                <strong>Cisco · Technical leadership</strong>
+                <span>Research, international standards, AI, and automation.</span>
+              </figcaption>
+            </figure>
+
             <article className="career-stop career-stop-now">
               <span className="career-marker">03</span>
               <div><span className="career-era">Now · The two halves come together</span><p>I’m building tools, data, and stories around women’s sports—particularly women’s professional baseball and soccer—and exploring what becomes possible when sports knowledge, rigorous research, and modern technology live in the same place.</p></div>
