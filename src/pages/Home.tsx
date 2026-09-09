@@ -183,6 +183,27 @@ export default function Home() {
               <span className="career-marker">03</span>
               <div><span className="career-era">Now · The two halves come together</span><p>I’m building tools, data, and stories around women’s sports—particularly women’s professional baseball and soccer—and exploring what becomes possible when sports knowledge, rigorous research, and modern technology live in the same place.</p></div>
             </article>
+
+            <figure className="career-archive career-archive-soccer">
+              <div className="career-archive-scorebar">
+                <span>From the archive</span>
+                <strong>Women’s soccer</strong>
+              </div>
+              <div className="career-archive-photo">
+                <img
+                  src="/lucy-bronze-personal-archive.webp"
+                  alt="Kristy Knowles with Lucy Bronze"
+                  width="1400"
+                  height="1234"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <figcaption>
+                <strong>Women’s soccer · Personal archive</strong>
+                <span>With Lucy Bronze.</span>
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
