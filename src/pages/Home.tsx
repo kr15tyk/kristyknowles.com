@@ -153,6 +153,28 @@ export default function Home() {
               <span className="career-marker">01</span>
               <div><span className="career-era">WTA · Women’s professional sports</span><p>My career started with the Women’s Tennis Association, where I spent more than nine years working in professional women’s sports. I traveled internationally with WTA staff and players, supporting tournaments and providing statistical information to the press corps before and during play.</p></div>
             </article>
+
+            <figure className="career-archive">
+              <div className="career-archive-scorebar">
+                <span>From the archive</span>
+                <strong>1994 / Tokyo / WTA</strong>
+              </div>
+              <div className="career-archive-photo">
+                <img
+                  src="/wta-nichirei-1994.webp"
+                  alt="Kristy Knowles with Gabriela Sabatini and other attendees at the 1994 Nichirei International Championships in Tokyo"
+                  width="1448"
+                  height="1086"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <figcaption>
+                <strong>Nichirei International Championships · Tokyo, Japan</strong>
+                <span>With Gabriela Sabatini and fellow tournament attendees. Personal archive.</span>
+              </figcaption>
+            </figure>
+
             <article className="career-stop">
               <span className="career-marker">02</span>
               <div><span className="career-era">Technology · Research · Standards</span><p>Technology took me through network engineering, government infrastructure, cybersecurity, and technical research before becoming a Technical Leader at Cisco. There, I work across engineering, research, international standards, AI, and automation—and chair an international technical community of more than 100 participants.</p></div>

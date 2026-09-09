@@ -1030,6 +1030,55 @@ nav a[aria-current="page"] { color: #fff; }
 .career-stop-now .career-marker { background: var(--ten-violet); }
 .career-era { color: var(--ten-deep-purple); }
 .career-stop p { color: #5d5765; }
+.career-archive {
+  position: relative;
+  z-index: 2;
+  margin: -10px 0 46px 68px;
+  overflow: hidden;
+  border: 1px solid rgba(50, 22, 90, .16);
+  background: #fff;
+  box-shadow: 10px 12px 0 rgba(102, 56, 166, .1);
+}
+.career-archive-scorebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 13px;
+  background: linear-gradient(100deg, var(--ten-violet), var(--ten-indigo) 58%, var(--ten-electric-blue));
+  color: #fff;
+  font-size: .62rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.career-archive-scorebar span { color: rgba(255, 255, 255, .72); }
+.career-archive-scorebar strong { font-size: inherit; }
+.career-archive-photo {
+  padding: 10px;
+  background: #fff;
+}
+.career-archive-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.career-archive figcaption {
+  display: grid;
+  gap: 4px;
+  padding: 5px 16px 17px;
+  color: #716a7a;
+  font-size: .78rem;
+  line-height: 1.45;
+}
+.career-archive figcaption strong {
+  color: var(--ten-deep-purple);
+  font-size: .72rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
 
 .contact-section {
   background: linear-gradient(110deg, var(--ten-violet) 0%, var(--ten-indigo) 52%, var(--ten-electric-blue) 100%);
@@ -1048,4 +1097,14 @@ nav a[aria-current="page"] { color: #fff; }
 
 @media (max-width: 620px) {
   .hero-score-strip { padding: 0 18px 8px; }
+  .career-archive { margin-left: 61px; }
+  .career-archive-scorebar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
+
+@media (max-width: 440px) {
+  .career-archive { margin-left: 0; }
 }
