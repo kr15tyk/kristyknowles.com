@@ -151,7 +151,11 @@ export default function Home() {
           <div className="prose career-timeline">
             <article className="career-stop">
               <span className="career-marker">01</span>
-              <div><span className="career-era">WTA · Women’s professional sports</span><p>My career started with the Women’s Tennis Association, where I spent more than nine years working in professional women’s sports. I traveled internationally with WTA staff and players, supporting tournaments and providing statistical information to the press corps before and during play.</p></div>
+              <div>
+                <span className="career-era">WTA · Women’s professional sports</span>
+                <p>My career started with the Women’s Tennis Association, where I spent more than nine years working in professional women’s sports. I traveled internationally with WTA staff and players, supporting tournaments and providing statistical information to the press corps before and during play.</p>
+                <p className="career-memory">One of my favorite memories from the tour was meeting Billie Jean King—she walked up and introduced herself to me, a moment I’ve never forgotten. I also had the opportunity to meet Chris Evert and many of the players and leaders who shaped women’s tennis.</p>
+              </div>
             </article>
 
             <figure className="career-archive">

@@ -837,6 +837,12 @@ nav a[aria-current="page"] { color: #fff; }
   text-transform: uppercase;
 }
 .career-stop p { margin: 0; color: #596069; font-size: .98rem; }
+.career-stop .career-memory {
+  margin-top: 14px;
+  padding-left: 15px;
+  border-left: 3px solid var(--ten-lavender);
+  color: var(--ten-deep-purple);
+}
 
 .contact-section {
   position: relative;
